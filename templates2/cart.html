@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Cart</h1>
+  <ul>
+    {% for product, quantity in cart.items() %}
+      <li>
+        {{ product.name }} ({{ quantity }})
+        <form method="POST" action="{{ url_for('update_cart', product_id=product.id) }}">
+          <input type="number" name="quantity" value="{{ quantity }}">
+          <input type="submit" value="Update">
+        </form>
+        <form method="POST" action="{{ url_for('remove_from_cart', product_id=product.id) }}">
+          <input type="submit" value="Remove">
+        </form>
+      </li>
+    {% endfor %}
+  </ul>
+  <p>Total: {{ total_price }}</p>
+  <form method="POST" action="{{ url_for('checkout') }}">
+    <input type="submit" value="Checkout">
+  </form>
+{% endblock %}
