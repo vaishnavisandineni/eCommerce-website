@@ -1,0 +1,41 @@
+-- Create tables
+CREATE TABLE users (
+    id INTEGER PRIMARY KEY,
+    username TEXT NOT NULL,
+    password TEXT NOT NULL
+);
+
+CREATE TABLE products (
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL,
+    description TEXT NOT NULL,
+    price REAL NOT NULL,
+    image TEXT NOT NULL,
+    stock INTEGER NOT NULL
+);
+
+CREATE TABLE orders (
+    id INTEGER PRIMARY KEY,
+    user_id INTEGER NOT NULL,
+    total_price REAL NOT NULL,
+    shipping_address TEXT NOT NULL,
+    order_date DATE NOT NULL,
+    FOREIGN KEY (user_id) REFERENCES users (id)
+);
+
+CREATE TABLE order_products (
+    id INTEGER PRIMARY KEY,
+    order_id INTEGER NOT NULL,
+    product_id INTEGER NOT NULL,
+    quantity INTEGER NOT NULL,
+    FOREIGN KEY (order_id) REFERENCES orders (id),
+    FOREIGN KEY (product_id) REFERENCES products (id)
+);
+
+-- Insert data
+INSERT INTO users (username, password) VALUES ('admin', 'password');
+
+INSERT INTO products (name, description, price, image, stock) VALUES
+    ('Product 1', 'Description 1', 10.99, 'product1.jpg', 10),
+    ('Product 2', 'Description 2', 9.99, 'product2.jpg', 20),
+    ('Product 3', 'Description 3', 12.99, 'product3.jpg', 30);
