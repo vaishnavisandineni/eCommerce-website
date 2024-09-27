@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Payment</title>
+  </head>
+  <body>
+    <h1>Payment</h1>
+    <form action="/order_confirmation" method="post">
+      <input type="hidden" name="client_secret" value="{{ client_secret }}">
+      <input type="submit" value="Pay Now">
+    </form>
+  </body>
+</html>
