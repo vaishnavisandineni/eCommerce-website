@@ -1,0 +1,4 @@
+//install Flask using pip:
+mkdir ecommerce
+cd ecommerce
+pip install flask
