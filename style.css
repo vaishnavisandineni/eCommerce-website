@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.product-list li {
+    margin-bottom: 20px;
+}
+
+.product-list li img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.product-detail {
+    margin-top: 20px;
+}
+
+.product-detail img {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
