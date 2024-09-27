@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Order Confirmation</title>
+  </head>
+  <body>
+    <h1>Order Confirmation</h1>
+    <p>Thank you for your order!</p>
+    <p>Order Details:</p>
+    <ul>
+      <li>Order ID: {{ order_details.order_id }}</li>
+      <li>Product: {{ order_details.product }}</li>
+      <li>Quantity: {{ order_details.quantity }}</li>
+      <li>Total: {{ order_details.total }}</li>
+    </ul>
+  </body>
+</html>
