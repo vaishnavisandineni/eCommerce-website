@@ -1,0 +1,10 @@
+<p>Date: {{ order.date }}</p>
+<p>Customer: {{ order.customer.name }}</p>
+<p>Total: {{ order.total }}</p>
+<ul>
+  {% for product in order.products %}
+    <li>
+      {{ product.name }} ({{ product.price }})
+    </li>
+  {% endfor %}
+</ul>
