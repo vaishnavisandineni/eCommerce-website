@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Checkout</h1>
+  <form method="POST">
+    {{ form.hidden_tag() }}
+    {{ form.shipping_address.label }} {{ form.shipping_address() }}
+    <input type="submit" value="Place Order">
+  </form>
+{% endblock %}
