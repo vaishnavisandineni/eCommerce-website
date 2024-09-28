@@ -21,33 +21,11 @@ JavaScript: A high-level, dynamic, and interpreted programming language for clie
 Database:
 
 SQLite: A self-contained, file-based relational database
-Output:
 
 A fully functional e-commerce website with product listing, order management, customer management, registration, and login functionality.
 Code:
 
 The code for this project is provided in the above files.
-Here is the output link of the basic e-commerce website:
-
-Home Page: http://localhost:5000/
-
-Product List Page: http://localhost:5000/products
-
-Product Edit Page: http://localhost:5000/products/1/edit
-
-Product Delete Page: http://localhost:5000/products/1/delete
-
-Order List Page: http://localhost:5000/orders
-
-Order View Page: http://localhost:5000/orders/1
-
-Customer List Page: http://localhost:5000/customers
-
-Customer View Page: http://localhost:5000/customers/1
-
-Registration Page: http://localhost:5000/register
-
-Login Page: http://localhost:5000/login
 
 Please note that you need to run the Flask application by executing the app.py file to access these pages.
 
