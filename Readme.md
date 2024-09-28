@@ -5,41 +5,70 @@ Here is a simulated screenshot of the e-commerce website:
 Home Page:
 
 Header with navigation menu (Products, Orders, Customers, Register, Login)
+
 Hero section with a call-to-action (CTA) button to view products
+
 Featured products section with a grid layout
+
+
 Footer with copyright information and social media links
+
 Product List Page:
 
 Header with navigation menu (Products, Orders, Customers, Register, Login)
+
 Product list with a grid layout
+
 Each product card includes:
+
 Product image
+
 Product name
+
 Product price
+
 Add to cart button
+
 Pagination links at the bottom of the page
+
 Product Edit Page:
 
 Header with navigation menu (Products, Orders, Customers, Register, Login)
+
 Product edit form with the following fields:
+
 Product name
+
 Product price
+
 Product description
+
 Save changes button
+
 Order List Page:
 
 Header with navigation menu (Products, Orders, Customers, Register, Login)
+
 Order list with a table layout
+
 Each order row includes:
+
 Order ID
+
 Customer name
+
 Order date
+
 Total amount
+
 View order button
+
 Order View Page:
 
 Header with navigation menu (Products, Orders, Customers, Register, Login)
+
 Order details with the following information:
+
 Order ID
 Customer name
 Order date
