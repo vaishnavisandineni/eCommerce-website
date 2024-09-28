@@ -140,7 +140,7 @@ Here are the steps to run the Flask application:
 Open a terminal or command prompt.
 Navigate to the directory where you have saved the app.py file.
 Type python app.py to run the Flask application.
-Open a web browser and navigate to http://localhost:5000/ to access the home page of the e-commerce website.
+Open a web browser and navigate the output link to access the home page of the e-commerce website.
 Note: Make sure you have Flask and Flask-SQLAlchemy installed in your Python environment. You can install them using pip:
 
 pip install flask flask-sqlalchemy
