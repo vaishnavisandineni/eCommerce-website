@@ -1,9 +1,86 @@
 Basic E-commerce Website using Flask and SQLAlchemy
 
+Here is a simulated screenshot of the e-commerce website:
+
+Home Page:
+
+Header with navigation menu (Products, Orders, Customers, Register, Login)
+Hero section with a call-to-action (CTA) button to view products
+Featured products section with a grid layout
+Footer with copyright information and social media links
+Product List Page:
+
+Header with navigation menu (Products, Orders, Customers, Register, Login)
+Product list with a grid layout
+Each product card includes:
+Product image
+Product name
+Product price
+Add to cart button
+Pagination links at the bottom of the page
+Product Edit Page:
+
+Header with navigation menu (Products, Orders, Customers, Register, Login)
+Product edit form with the following fields:
+Product name
+Product price
+Product description
+Save changes button
+Order List Page:
+
+Header with navigation menu (Products, Orders, Customers, Register, Login)
+Order list with a table layout
+Each order row includes:
+Order ID
+Customer name
+Order date
+Total amount
+View order button
+Order View Page:
+
+Header with navigation menu (Products, Orders, Customers, Register, Login)
+Order details with the following information:
+Order ID
+Customer name
+Order date
+Total amount
+Product list with quantity and price
+Customer List Page:
+
+Header with navigation menu (Products, Orders, Customers, Register, Login)
+Customer list with a table layout
+Each customer row includes:
+Customer ID
+Customer name
+Email address
+View customer button
+Customer View Page:
+
+Header with navigation menu (Products, Orders, Customers, Register, Login)
+Customer details with the following information:
+Customer ID
+Customer name
+Email address
+Address
+Registration Page:
+
+Header with navigation menu (Products, Orders, Customers, Register, Login)
+Registration form with the following fields:
+Name
+Email address
+Password
+Confirm password
+Register button
+Login Page:
+
+Header with navigation menu (Products, Orders, Customers, Register, Login)
+Login form with the following fields:
+Email address
+Password
+Login button
+
 This is a basic e-commerce website built using Flask and SQLAlchemy. It includes features such as product listing, product editing, product deletion, order management, customer management, registration, and login.
-
-Features:
-
+FEATURES:
 Product listing with pagination
 Product editing and deletion
 Order management with order listing and order viewing
